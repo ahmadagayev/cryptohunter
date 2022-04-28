@@ -33,7 +33,7 @@ function App() {
   return(
     <div className='app'>
       <Routes>
-        <Route path="/" element={
+        <Route path="/cryptohunter" element={
           <>
             <Navbar/>
             <Home filteredCoins={filteredCoins}/>
